@@ -220,7 +220,7 @@ body {
 }
 
 .btn-primary {
-  background-color: rgb(232, 70, 97);
+  background-color: rgb(0, 0, 0);
   color: var(--white);
 }
 
@@ -418,7 +418,7 @@ body {
 }
 
 .hero .flex-btn .span {
-  color: rgb(232, 70, 97);
+  color: rgb(0, 0, 0);
   font-size: var(--fs-9);
   font-weight: var(--fw-600);
 }
