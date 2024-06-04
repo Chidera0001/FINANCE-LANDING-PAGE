@@ -750,6 +750,37 @@ ul.about-list{list-style-type: none; margin-left: -1em;}
 \*-----------------------------------*/
 
 /**
+ * responsive for less than 575px screen
+ */
+
+  @media (max-width: 575px) {
+    .ribbon {
+      height: 15em;
+
+    }
+    .img-cover {
+      margin-top: 0.5em;
+      width: 15em;
+      height: 15em;
+      object-fit: cover;
+      margin: 3em;
+    }
+    .footer-image {
+      padding: 2.0em !important;
+      height: 13em
+    }
+    .about-banner {
+      filter: drop-shadow(2px 2px 5px hsla(0, 0%, 0%, 0.08));
+      padding-bottom: 8em;
+    }
+    .w-101 {
+      width: 60%;
+      margin-left: 3em;
+    }
+  }
+
+
+/**
  * responsive for large than 575px screen
  */
 
