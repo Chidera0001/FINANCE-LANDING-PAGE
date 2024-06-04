@@ -139,7 +139,7 @@ html {
 }
 
 body {
-  background-image: url(/assets/images/Background\ \(1\).png);
+  background-image: url(/assets/images/Background.png);
   font-size: 1.6rem;
   line-height: 1.7;
   background-size: cover;
@@ -489,26 +489,6 @@ ul.about-list{list-style-type: none; margin-left: -1em;}
   margin-right: 5px; /* Add space between icon and text */
   display: inline-block; /* Make the image behave like inline content */
 }
-
-/*-----------------------------------*\
-  #PARTNER
-\*-----------------------------------*/
-
-.partner { background-color: var(--baby-powder); }
-
-.partner .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-.partner-logo .color,
-.partner-logo:is(:hover, :focus) .gray { display: none; }
-
-.partner-logo:is(:hover, :focus) .color,
-.partner-logo .gray { display: block; }
 
 /*-----------------------------------*\
   #FAQ
@@ -1026,7 +1006,7 @@ ul.about-list{list-style-type: none; margin-left: -1em;}
    * FEATURES
    */
 
-  .features .grid-list { grid-template-columns: repeat(3, 1fr); }
+  .features .grid-list { grid-template-columns: repeat(2, 1fr); }
 
 
 
