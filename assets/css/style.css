@@ -240,7 +240,7 @@ body {
   object-fit: cover;
 }
 
-.w-100 { width: 100%; }
+.w-100 { width: 50%; margin-left: 6em; }
 
 .text-center { text-align: center; }
 
@@ -437,7 +437,13 @@ body {
   #ABOUT
 \*-----------------------------------*/
 
-.about .container {
+.about{
+  padding-top: 0;
+}
+/* .about-content{
+  margin-top: -30em;
+} */
+about .container {
   display: grid;
   gap: 10px;
 }
@@ -995,6 +1001,7 @@ body {
    */
 
   .about .container {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
@@ -1101,7 +1108,7 @@ body {
    * ABOUT
    */
 
-  .about .container { grid-template-columns: 1fr 0.7fr; }
+  .about .container { display: geid; grid-template-columns: 1fr 0.7fr; }
 
 
 
