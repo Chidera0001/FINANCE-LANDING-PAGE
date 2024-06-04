@@ -240,6 +240,7 @@ body {
 }
 
 .w-100 { width: 50%; margin-left: 6em; }
+.w-101 { width: 80%; margin-left: 6em; }
 
 .text-center { text-align: center; }
 
@@ -438,6 +439,7 @@ body {
 
 .about{
   padding-top: 0;
+  padding-bottom: 1em;
 }
 .about-content{
   margin-top: -10em;
@@ -451,7 +453,7 @@ about .container {
 
 .about .section-text { margin-block: 20px 13px; }
 
-ul.about-list{list-style-type: none;}
+ul.about-list{list-style-type: none; margin-left: -1em;}
 
 .about-list { margin-block-end: 50px; }
 
