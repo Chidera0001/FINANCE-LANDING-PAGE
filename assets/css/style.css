@@ -171,7 +171,6 @@ body {
 .has-after {
   position: relative;
   z-index: 1;
-  margin-top: -20em;
 }
 
 .has-before::before,
@@ -234,7 +233,7 @@ body {
 }
 
 .img-cover {
-  margin-top: 5em;
+  margin-top: 1em;
   width: 150%;
   height: 100%;
   object-fit: cover;
@@ -440,9 +439,9 @@ body {
 .about{
   padding-top: 0;
 }
-/* .about-content{
-  margin-top: -30em;
-} */
+.about-content{
+  margin-top: -10em;
+}
 about .container {
   display: grid;
   gap: 10px;
@@ -452,6 +451,8 @@ about .container {
 
 .about .section-text { margin-block: 20px 13px; }
 
+ul.about-list{list-style-type: none;}
+
 .about-list { margin-block-end: 50px; }
 
 .about-list .has-before {
@@ -459,18 +460,10 @@ about .container {
   font-size: 16px;
   padding-inline-start: 20px;
   line-height: 1.5;
+  list-style-type: none;
 }
 
 .about-list .has-before:not(:last-child) { margin-block-end: 15px; }
-
-.about-list .has-before::before {
-  top: 10px;
-  left: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: rgb(232, 70, 97);
-}
 
 .about .btn-group { justify-content: flex-start; }
 
@@ -486,6 +479,12 @@ about .container {
   font-family: var(--ff-cuprum);
   font-size: var(--fs-6);
   font-weight: var(--fw-600);
+}
+.icon-img {
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  margin-right: 5px; /* Add space between icon and text */
+  display: inline-block; /* Make the image behave like inline content */
 }
 
 /*-----------------------------------*\
