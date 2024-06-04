@@ -777,6 +777,67 @@ ul.about-list{list-style-type: none; margin-left: -1em;}
       width: 60%;
       margin-left: 3em;
     }
+    .about-content {
+      margin-top: -10em;
+      text-align: center;
+    }
+    .about .section-text{
+      text-align: justify;
+      width: 100% !important;
+      text-align: center !important;
+    }
+    .Group{
+      padding-left: 4em;
+    }
+    .container {
+      margin-top: 0;
+    }
+  }
+  @media (width: 1024px) {
+    .footer-image{
+      height: 35em;
+    }
+  }
+  @media (width: 412px) {
+    .footer-image{
+      height: 14em;
+    }
+  }
+  @media (width: 853px) {
+    .footer-image{
+      height: 32em !important;
+      padding: 6em;
+    }
+    .img-cover {
+      margin-top: 1em;
+      width: 40em;
+      height: 100%;
+      object-fit: cover;
+    }
+    .w-100 {
+      width: 50%;
+      margin-left: 6em;
+      margin-bottom: 5em;
+    }
+    .about-content {
+      margin-top: 1em;
+      margin-left: 6em;
+    }
+  }
+  @media (width: 344px) { 
+    .footer-image{
+      height: 12em;
+    }
+  }
+  @media (width: 540px) { 
+    .footer-image{
+      height: 17em;
+    }
+  }
+  @media (width: 912px) { 
+    .footer-image{
+      height: 34em;
+    }
   }
 
 
